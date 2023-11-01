@@ -4,17 +4,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #dfe8ee;
+    background-color: #0f2330;
+    color: #cbd5e0;
 }
 @keyframes click {
-    0%, 20%, 50%, 80%, 100% {
+    0%, 50%, 80%, 100% {
         transform: scale(1); /* Define o ponto inicial e final sem alteração */
     }
     40% {
-        transform: scale(0.9); /* Define o ponto mais alto do quique */
+        transform: scale(0.9);
     }
     60% {
-        transform: scale(1.01); /* Define o ponto mais baixo do quique */
+        transform: scale(1.01);
     }
 }
 .clickAnimate {
@@ -26,8 +27,8 @@ input {
     appearance: none;
     outline: none;
     border: 1px solid #cbd5e0;
+    background-color: #0f2330;
     border-radius: 4px;
-    background-color: white;
     margin: 0;
     transition: all 0.2s ease 0s;
     height: 40px;
