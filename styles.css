@@ -95,11 +95,13 @@ button:disabled {
     display: flex;
     justify-content: center;
     padding: 8px 0;
+    max-width: 500px;
+    word-break:break-all;
 }
 
 footer {
     font-family: sans-serif;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     font-size: 12px;
 }
