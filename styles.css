@@ -95,3 +95,14 @@ button:disabled {
     justify-content: center;
     padding: 8px 0;
 }
+
+footer {
+    font-family: sans-serif;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+}
+a {
+    color: #98bbe0;
+    text-decoration: none;
+}
